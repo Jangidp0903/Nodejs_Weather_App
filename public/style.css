@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    45deg,
+    #000000,
+    #412728,
+    #7f4d3e,
+    #b87c4c,
+    #e2b659,
+    #f9f871
+  );
+  height: 110vh;
+}
+
+.container {
+  margin-top: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+}
+.container h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.container .weather-form button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  width: 25%;
+}
+.cityname {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+}
+.image {
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+}
+.image img {
+  width: 100px;
+  height: 100px;
+}
+.cityname h2 {
+  color: white;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.details {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.details .box {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  width: 30%;
+  text-align: center;
+}
+.details .description h4 {
+  color: white;
+  font-size: 2rem;
+}
+.details .temperature h4 {
+  color: white;
+  font-size: 2rem;
+}
+.details .humidity h4 {
+  color: white;
+  font-size: 2rem;
+}
+.no-weather {
+  margin: 0;
+  text-align: center;
+}
