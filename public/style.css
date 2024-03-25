@@ -15,11 +15,12 @@ body {
     #e2b659,
     #f9f871
   );
-  height: 110vh;
+  height: 115vh;
 }
 
 .container {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 1rem;
   border-radius: 1rem;
@@ -93,4 +94,27 @@ body {
 .no-weather {
   margin: 0;
   text-align: center;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+  .container {
+    width: 90%;
+  }
+  .container h1 {
+    font-size: 2.5rem;
+  }
+  .container .weather-form button {
+    width: 50%;
+  }
+  .details {
+    flex-direction: column;
+  }
+  .details .box {
+    width: 100%;
+    margin: 0.5rem;
+  }
 }
